@@ -1,0 +1,15 @@
+# This project is written entirely in C99 and has NO Python dependencies.
+#
+# This file exists only to state that explicitly, so that a reader who looks
+# for it does not go hunting for a missing dependency list. `pip install -r`
+# on this file is a no-op.
+#
+# What you actually need to build and run the project:
+#
+#   gcc   >= 4.9   (any C99 compiler works; developed with MinGW gcc 6.3.0)
+#   make  >= 3.81  (optional -- see the README for the plain gcc commands)
+#
+# There is no standard library dependency beyond the C standard library:
+#   <stdio.h>, <stdlib.h>, <time.h>
+#
+# See README.md -> "Building and running".

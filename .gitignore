@@ -1,0 +1,56 @@
+# ---- Build output ----
+build/
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.d
+
+# ---- Debug / profiling artifacts ----
+*.gcda
+*.gcno
+*.gcov
+*.su
+*.idb
+*.pdb
+*.ilk
+*.map
+*.stackdump
+core
+core.*
+vgcore.*
+*.dSYM/
+
+# ---- Generated measurements and instances ----
+# Instances are drawn at run time and never committed; any dump of them,
+# or of timing results, stays local.
+data/
+results/
+instances/
+benchmarks/
+*.csv
+*.tsv
+*.log
+*.out
+*.dat
+
+# ---- Course deliverables (contain other authors' names) ----
+# The report, the slides and the assignment are not part of this repository.
+*.docx
+*.odt
+*.pptx
+*.odp
+*.pdf
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
